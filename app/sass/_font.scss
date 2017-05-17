@@ -5,3 +5,64 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'helvetica';
+  src: url('../font/HelveticaNeue-CondensedBold.eot');
+  src: url('../font/HelveticaNeue-CondensedBold.eot') format('embedded-opentype'),                    url('../font/HelveticaNeue-CondensedBold.woff') format('woff'), url('../fonts/HelveticaNeue-CondensedBold.ttf') format('truetype'), 
+       url('../font/HelveticaNeue-CondensedBold.svg') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'helvetica';
+    src: url('../font/helveticalight-webfont.eot');
+    src: url('../font/helveticalight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/helveticalight-webfont.woff2') format('woff2'),
+         url('../font/helveticalight-webfont.ttf') format('truetype'),
+         url('../font/helveticalight-webfont.svg#helveticaneuecyrlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+//@font-face {
+//    font-family: 'helvetica';
+//    src: url('../font/helveticaregular-webfont.eot');
+//    src: url('../font/helveticaregular-webfont.eot?#iefix') format('embedded-opentype'),
+//         url('../font/helveticaregular-webfont.woff2') format('woff2'),
+//         url('../font/helveticaregular-webfont.ttf') format('truetype'),
+//         url('../font/helveticaregular-webfont.svg#helveticaneuecyrroman') format('svg');
+//    font-weight: normal;
+//    font-style: normal;
+//}
+
+
+
+
+
+//@font-face {
+//    font-family: 'skoda';
+//    src: url('../font/skodapro-extrabold-webfont.eot');
+//    src: url('../font/skodapro-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+//         url('../font/skodapro-extrabold-webfont.woff2') format('woff2'),
+//         url('../font/skodapro-extrabold-webfont.ttf') format('truetype'),
+//         url('../font/skodapro-extrabold-webfont.svg#skoda_proextrabold') format('svg');
+//    font-weight: normal;
+//    font-style: normal;
+//
+//}
+//
+//
+//
+//
+//@font-face {
+//    font-family: 'skoda';
+//    src: url('../font/skodapro-regular-webfont.eot');
+//    src: url('../font/skodapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+//         url('../font/skodapro-regular-webfont.woff2') format('woff2'),
+//         url('../font/skodapro-regular-webfont.ttf') format('truetype'),
+//         url('../font/skodapro-regular-webfont.svg#skoda_proregular') format('svg');
+//    font-weight: normal;
+//    font-style: normal;
+//
+//}

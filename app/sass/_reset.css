@@ -43,9 +43,11 @@ table {
 }
 a{
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
 }
 button{
   background-color: transparent;
   border: none;
+	cursor: pointer;
+	outline: none;
 }

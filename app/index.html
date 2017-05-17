@@ -2,51 +2,111 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/libs.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <!--
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
+	<title>Skoda Kodiaq</title>
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
     <meta property="og:title" content="">
     <meta property="og:description" content="">    
-    <meta property="og:image" content="http://.../images/share.jpg">
+    <meta property="og:image" content="http://skodakodiaq.korrespondent.net/img/share.jpg">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="http://.../»">
--->
+    <meta property="og:url" content="http://skodakodiaq.korrespondent.net/»">
 
 
-  <!--mobile & IE9- support-->
-  <!--[if lt IE 9]>
+
+	<!--mobile & IE9- support-->
+	<!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
-  <!--mobile & IE9- support-->
+	<!--mobile & IE9- support-->
 </head>
 
 <body>
-  <section class="skoda">
-    <img src="img/skoda.jpg" alt="">
-  </section>
-  <header>
-    <div class="social">
-      <a href="http://vk.com/share.php?url=http://.../"><i>&#xf189;</i></a>
-      <a href="http://facebook.com/sharer/sharer.php?u=http://.../"><i>&#xf09a;</i></a>
-    </div>
-    <img src="img/logo-skoda.png" alt="" class="header__logo">
-    <button class="cmn-toggle-switch cmn-toggle-switch__htx">
+	<section class="skoda video-wrap">
+		<div class="skoda__nav"><a href="http://www.eurocar.com.ua/models/kodiaq/overview/" target="_blank"><span>О KODIAQ</span></a><a href="http://www.eurocar.com.ua/mini-apps/autorizovani-partneri-skoda/" target="_blank"><span>Дилеры</span></a></div>
+		<button class="btn-play"></button>
+		<button class="btn-close"></button>
+		<video src="media/Kodiaq.mp4" controls preload="auto" class="video">
+		</video>
+	</section>
+	<header>
+		<div class="social">
+			<a href="http://vk.com/share.php?url=http://skodakodiaq.korrespondent.net/"><i>&#xf189;</i></a>
+			<a href="http://facebook.com/sharer/sharer.php?u=http://skodakodiaq.korrespondent.net/"><i>&#xf09a;</i></a>
+		</div>
+		<img src="img/logo-skoda.png" alt="" class="header__logo">
+		<button class="cmn-toggle-switch cmn-toggle-switch__htx">
       <span>toggle menu</span>
     </button>
-  </header>
-  <section class="main"></section>
-  <section class="slider">
-    <div></div>
-  </section>
+		<nav>
+			<div>
+				<span class="nav__title">об автомобиле:</span>
+				<a href="http://www.eurocar.com.ua/models/kodiaq/overview/" target="_blank" class="nav__link"><span>О KODIAQ</span></a>
+				<a href="http://www.eurocar.com.ua/mini-apps/autorizovani-partneri-skoda/" target="_blank" class="nav__link"><span>Дилеры</span></a>
+				
+			</div>
+			<div>
+				<span class="nav__title">путешественники:</span>
+				<a href="person1.html" class="nav__link"><span>Дмитрий Ковалев</span></a>
+				<a href="person2.html" class="nav__link"><span>Алиса Якубович</span></a>
+				<a href="person3.html" class="nav__link"><span>Артемий Сурин</span></a>
+				<a href="person4.html" class="nav__link"><span>Ирина Галай </span></a>
+				<a href="person5.html" class="nav__link"><span>Дмитрий Потоцкий</span></a>
+			</div>
+		</nav>
+	</header>
+	<!--
+  main
+  -->
+	<section class="main">
+		<video src="media/%D1%82%D0%B8%D0%B7%D0%B5%D1%80%20%D1%88%D0%BA%D0%BE%D0%B4%D0%B0.mp4" class="bgvideo" autoplay loop poster="img/bg-firstSec.jpg"></video>
+		<img src="img/bg-h1.png" alt="" class="main-title">
+		<p class="main__text">
+			<span>SKODA KODIAQ представляет проект о свободе, философии и формуле счастья, о людях, изменивших жизнь и сделавших путешествия своей жизнью.</span>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="js/libs.min.js"></script>
-  <script src="js/custom.js"></script>
+			<span>Хотя бы однажды каждому путешественнику приходится услышать, что он бежит от жизни, ответственности и самого себя. На самом деле, мы путешествуем не для того, чтобы убежать от жизни, а чтобы жизнь не убежала от нас.</span>
+		</p>
+	</section>
+	<section class="slider">
+		<a href="person1.html" class="slide slide_1">
+			<div class="slide__info _bot _left">
+				<h3><span>Дмитрий Ковалев</span></h3>
+				53 года. Инженер-испытатель спортивных автомобилей, каскадер, основатель Клуба Внедорожных Приключений
+			</div>
+		</a>
+		<a href="person2.html" class="slide slide_2">
+			<div class="slide__info _center _top">
+				<h3><span>Алиса Якубович</span></h3>
+				28 лет. Журналист, инструктор по кайтсерфингу, арт-куратор, путешественница, гид по Юго-Восточной Азии.
+			</div>
+		</a>
+		<a href="person3.html" class="slide slide_3">
+			<div class="slide__info _left _top">
+				<h3><span>Артемий Сурин</span></h3>
+				36 лет. Юрист, бизнесмен, профессиональный путешественник. Основатель проекта One Life
+			</div>
+		</a>
+		<a href="person4.html" class="slide slide_4">
+			<div class="slide__info _top _right">
+				<h3>Ирина Галай</h3>
+				28 лет. Топ-менеджер нефтяной компании, выпускница факультета компьютерных наук, первая украинка, поднявшаяся на Эверест.
+			</div>
+		</a>
+		<a href="person5.html" class="slide slide_5">
+			<div class="slide__info _top _right">
+				<h3><span>Дмитрий Потоцкий</span></h3>
+				39 лет . Инженер радиоэлектроники и IT-технологии, яхтсмен, преподаватель-инструктор яхтенной школы Маринеро
+			</div>
+		</a>
+	</section>
+
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/custom.js"></script>
 
 </body>
 

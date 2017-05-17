@@ -33,7 +33,7 @@ gulp.task('browser-sync', function () {
 });
 
 gulp.task('scripts', function () {
-    return gulp.src([''])
+    return gulp.src(['app/libs/slick/slick.js', 'app/libs/fancybox/fancybox.js'])
         .pipe(concat('libs.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('app/js'));
@@ -50,6 +50,7 @@ gulp.task('css-libs', ['sass'], function () {
 
 gulp.task('watch', ['browser-sync', 'css-libs', 'scripts'], function () {
     gulp.watch('app/sass/**/*.scss', ['sass']);
+		gulp.watch('app/libs/**/*.scss', ['sass']);
     gulp.watch('app/*.html', browserSync.reload);
     gulp.watch('app/js/**/*.js', browserSync.reload);
 });
